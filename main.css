@@ -1,0 +1,69 @@
+* {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-start;
+}
+
+header {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+h1 {
+  font-size: 45px;
+  margin-top: 70px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.block {
+  margin-bottom: 150px;
+}
+
+.bio {
+  font-size: 16px;
+  margin: 0px 20px 20px 20px;
+
+}
+
+.description {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.social {
+  width: 30px;
+  height: 30px;;
+}
+
+#alpacaQuiz {
+  height: 200px;
+  margin-bottom: 30px;
+}
+
+#hamburgerButton {
+  height: 30px;
+  width: 30px;
+  transform: rotate(90deg);
+
+}
+
+#arrowButton {
+  height: 30px;
+  width: 30px;
+}
