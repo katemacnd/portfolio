@@ -1,5 +1,11 @@
 * {
   text-align: center;
+  color: darkslategrey;
+  font-family: 'Archivo Narrow', sans-serif;
+}
+
+#background {
+  background-size: cover;
 }
 
 nav {
@@ -17,18 +23,26 @@ h1 {
   margin-top: 70px;
   margin-right: 20px;
   margin-left: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: tomato;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 28px;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: tomato;
+}
+
+h3 {
+  font-size: 20px;
   margin-right: 20px;
   margin-left: 20px;
 }
 
-h3 {
+.bio, .description {
   font-size: 18px;
-  margin-right: 20px;
-  margin-left: 20px;
 }
 
 .block {
