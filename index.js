@@ -1,3 +1,7 @@
-$('.hamburgerButton').on("click", function() {
-  $('.navOptions').show();
-});
+function handleClicks() {
+  $('#hamburgerButton').on("click", function() {
+    $('.navOptions').toggle();
+  });
+}
+
+$(handleClicks);

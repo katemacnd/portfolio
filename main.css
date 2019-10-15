@@ -41,6 +41,30 @@ h3 {
   margin-left: 20px;
 }
 
+.navOptions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+ul {
+  margin-top: 30px;
+}
+
+ul a:hover, ul a:visited, ul a:link, ul a:active
+{
+    text-decoration: none;
+    color: tomato;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+li {
+  list-style-type: none;
+  color: tomato;
+  text-decoration: none;
+}
 
 .links {
   color: tomato;
@@ -113,11 +137,21 @@ h3 {
     max-width: 600px;
   }
 
+  ul {
+    margin-top: 35px;
+  }
+
   #alpacaQuiz {
-    height: 300px;
+    height: 400px;
     border-radius: 5px;
   }
 
+  #hamburgerButton {
+    margin: 20px;
+    height: 50px;
+    width: 50px;
+    transform: rotate(90deg);
+  }
   .social {
     width: 50px;
     height: 50px;

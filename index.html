@@ -3,19 +3,22 @@
 <head>
     <title>Kate Engstrom Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+    <!-- <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css"> -->
     <link rel="stylesheet" type="text/css" href="main.css">
     <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow|Josefin+Sans&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="index.js"></script>
 </head>
 <body>
     <div id="background" style="background-image: url('https://image.freepik.com/free-photo/soft-cloudy-is-gradient-pastel-abstract-sky-background-sweet-color_6529-1540.jpg')">
-    <nav role="navigation"><img id="hamburgerButton" src="images/hamburger.png" alt="hamburger icon"></nav>
-        <ul class="navOptions hidden">
+    <nav role="navigation"><img id="hamburgerButton" src="images/hamburger.png" alt="hamburger icon">
+        <ul class="navOptions">
             <li><a href="">Home</a></li>
-            <li><a href="news.asp">About Me</a></li>
-            <li><a href="contact.asp">Portfolio</a></li>
-            <li><a href="about.asp">Contact Me</a></li>
+            <li><a href="#aboutMe">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contactMe">Contact Me</a></li>
         </ul>
+    </nav>
     <main role="main">
         <header role="banner" class="block">
             <h1>Hi, I'm Kate</h1>
@@ -50,6 +53,5 @@
             </address>
         </section>
     </main>
-    <script src="index.js"></script>
 </body>
 </html>
