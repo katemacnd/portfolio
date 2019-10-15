@@ -10,6 +10,12 @@
 <body>
     <div id="background" style="background-image: url('https://image.freepik.com/free-photo/soft-cloudy-is-gradient-pastel-abstract-sky-background-sweet-color_6529-1540.jpg')">
     <nav role="navigation"><img id="hamburgerButton" src="images/hamburger.png" alt="hamburger icon"></nav>
+        <ul class="navOptions hidden">
+            <li><a href="">Home</a></li>
+            <li><a href="news.asp">About Me</a></li>
+            <li><a href="contact.asp">Portfolio</a></li>
+            <li><a href="about.asp">Contact Me</a></li>
+        </ul>
     <main role="main">
         <header role="banner" class="block">
             <h1>Hi, I'm Kate</h1>
@@ -24,6 +30,11 @@
             <h2>Portfolio</h2>
             <h3>Animal Fact Alpaca Quiz</h3>
             <img id="alpacaQuiz" src="images/alpacaQuiz.png" alt="preview of alpaca quiz">
+            <div class="exampleResources">
+                <a class="links" href="https://github.com/katemacnd/QuizApp">Repo</a>
+                <a class="links" href="https://katemacnd.github.io/QuizApp/">Live Site</a>
+            </div><br>
+            <div class="description">Technologies Used: HTML, CSS, JavaScript, jQuery</div><br>
             <div class="description">This goal of this project was to build and deploy a well-architected, dynamic, accessible client-side app. I wrote JavaScript code to evaluate answers and lead users through each page of the app and created additional CSS to style the application.</div>
         </section>
         <section id="contactMe" class="block">
@@ -34,10 +45,11 @@
                 Minneapolis, MN<br>
                 <a href="mailto:katemacnd@gmail.com">katemacnd@gmail.com</a><br>
                 <a href="tel:+16125591197">(612) 559-1197</a><br><br><br>
-                <img class="social" src="images/github.svg" alt="github logo">
-                <img class="social" src="images/linkedin.png" alt="linkedin logo"><br><br>
+                <a href="https://github.com/katemacnd"><img class="social" src="images/github.svg" alt="github logo"></a>
+                <a href="https://www.linkedin.com/in/kate-engstrom-20267068/"><img class="social" src="images/linkedin.png" alt="linkedin logo"></a><br><br>
             </address>
         </section>
     </main>
+    <script src="index.js"></script>
 </body>
 </html>
