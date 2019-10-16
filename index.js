@@ -1,6 +1,6 @@
 function handleClicks() {
   $('#hamburgerButton').on("click", function() {
-    $('.navOptions').toggle();
+    $('.navOptions').toggleClass('hidden');
   });
 }
 
