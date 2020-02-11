@@ -4,9 +4,14 @@
   font-family: 'Archivo Narrow', sans-serif;
 }
 
+html {
+  border: 1px solid transparent;
+}
+
 #background {
   background-size: cover;
 }
+
 
 .hidden {
   display: none !important;
@@ -23,26 +28,26 @@ header {
 }
 
 h1 {
-  font-size: 45px;
   margin-top: 70px;
   margin-right: 20px;
   margin-left: 20px;
-  font-family: 'Josefin Sans', sans-serif;
   color: tomato;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 45px;
 }
 
 h2 {
-  font-size: 28px;
   margin-right: 20px;
   margin-left: 20px;
-  font-family: 'Josefin Sans', sans-serif;
   color: tomato;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 28px;
 }
 
 h3 {
-  font-size: 20px;
   margin-right: 20px;
   margin-left: 20px;
+  font-size: 20px;
 }
 
 .navOptions {
@@ -50,44 +55,41 @@ h3 {
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  /* margin-right: 10px;
-  margin-left: 10px; */
-  padding-left: 20px;
   padding-right: 20px;
+  padding-left: 20px;
 }
 
 ul {
   margin-top: 15px;
 }
 
-ul a:hover, ul a:visited, ul a:link, ul a:active
-{
-    text-decoration: none;
-    color: tomato;
-    font-size: 12px;
-    font-family: 'Josefin Sans', sans-serif;
+ul a:hover, ul a:visited, ul a:link, ul a:active {
+  text-decoration: none;
+  color: tomato;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 12px;
 }
 
 li {
   list-style-type: none;
-  color: tomato;
   text-decoration: none;
+  color: tomato;
 }
 
 .links {
-  color: tomato;
-  font-size: 20px;
   margin-right: 20px;
   margin-left: 20px;
+  color: tomato;
+  font-size: 20px;
 }
 
 .bio, .description {
-  font-size: 18px;
-  text-align: center;
-  padding-left: 25px;
-  padding-right: 25px;
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
+  padding-right: 25px;
+  padding-left: 25px;
+  text-align: center;
+  font-size: 18px;
 }
 
 .block {
@@ -100,55 +102,55 @@ li {
 
 .social {
   width: 30px;
-  height: 30px;;
+  height: 30px;
 }
 
-#alpacaQuiz {
+#contactMe {
+  margin-bottom: 0;
+}
+#alpacaQuizScreenshot, #farmCapstoneScreenshot {
   height: 200px;
   border-radius: 5px;
 }
 
 #hamburgerButton {
-  margin: 10px 0 10px 10px;
-  height: 30px;
   width: 30px;
+  height: 30px;
+  margin: 10px 0 10px 10px;
 }
 
 #arrowButton {
-  height: 30px;
   width: 30px;
+  height: 30px;
 }
 
-
 @media only screen and (min-width: 426px) {
-
   h1 {
-    font-size: 48px;
     margin-top: 70px;
     margin-right: 20px;
     margin-left: 20px;
+    font-size: 48px;
   }
 
   h2 {
-    font-size: 36px;
     margin-right: 20px;
     margin-left: 20px;
+    font-size: 36px;
   }
 
   h3 {
-    font-size: 24px;
     margin-right: 20px;
     margin-left: 20px;
+    font-size: 24px;
   }
 
   .bio, .description {
-    font-size: 20px;
     max-width: 600px;
+    font-size: 20px;
   }
 
-  ul a:hover, ul a:visited, ul a:link, ul a:active
-  {
-      font-size: 20px;
+  ul a:hover, ul a:visited, ul a:link, ul a:active {
+    font-size: 20px;
   }
 
   ul {
@@ -161,15 +163,15 @@ li {
   }
 
   #hamburgerButton {
-    margin: 20px 10px 20px 20px;
-    height: 50px;
     width: 50px;
+    height: 50px;
+    margin: 20px 10px 20px 20px;
   }
+
   .social {
     width: 50px;
     height: 50px;
     margin-right: 10px;
     margin-left: 10px;
   }
-
 }
